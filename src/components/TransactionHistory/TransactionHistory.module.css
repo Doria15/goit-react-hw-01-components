@@ -1,0 +1,34 @@
+.transactionHistory {
+  margin: 40px auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.transactionHead {
+  background-color: #4cb3d4;
+  color: white;
+}
+
+.transactionHeadLabel {
+  padding: 10px 60px;
+  text-transform: uppercase;
+  border: 1px solid #e0e2e4;
+}
+
+.transactionBody {
+  color: #626d78;
+}
+
+.transactionRow:nth-child(even) {
+  background-color: #c1c8d0;
+}
+
+.transactionRow:nth-child(odd) {
+  background-color: white;
+}
+
+.transactionRowData {
+  padding: 10px 60px;
+  text-transform: capitalize;
+  border: 1px solid #d2d5d9;
+}
