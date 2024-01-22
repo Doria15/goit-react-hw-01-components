@@ -18,8 +18,9 @@
 .avatar {
   width: 150px;
   height: 150px;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   margin-top: 50px;
+  background-color: grey;
 }
 
 .name {
